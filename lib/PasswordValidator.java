@@ -4,8 +4,8 @@ public class PasswordValidator {
 
     /**
      * การสร้างPasswordให้แข็งแรง โดยการแยกประเภท
-     * @param ค่าString ที่รับเข้ามาทั้งหมด โดยไม่เป็นnull or empty
-     * @return แสดงค่าออกมาเป็นStringที่มีข้อความระบุว่าเป็นpassword รูปแบบไหน INVALID,WEAK,MEDIUM,STRONG
+     * @param ค่าPassword ที่รับเข้ามาทั้งหมด โดยไม่เป็น null or empty
+     * @return แสดงค่าออกมาเป็นPasswordที่มีข้อความระบุว่าเป็นpassword รูปแบบไหน INVALID,WEAK,MEDIUM,STRONG
      */
     // TODO: แก้ไข return type ของเมธอดนี้ให้ถูกต้อง
     public static PasswordStrength validate(String password) { // Function Type ให้เป็น PasswordStrength 
