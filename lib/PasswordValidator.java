@@ -31,8 +31,7 @@ public class PasswordValidator {
             return PasswordStrength.WEAK ;
         else if(hasLower && hasUppper) 
             return PasswordStrength.MEDIUM ;
-
-    return null ;
+        else return PasswordStrength.WEAK;
 
     }
 }
